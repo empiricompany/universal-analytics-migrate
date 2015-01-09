@@ -1,12 +1,12 @@
 # Universal Analytics Migrate
 
-This is few lines of code inspired to jQuery Migrate to migrate old event tracking ga.js and other features  _gaq.push() to new Universal Analytics API analytics.js.
+These are few lines of code inspired to jQuery Migrate to migrate old event tracking ga.js and other features  _gaq.push() to new Universal Analytics API analytics.js.
 
-Generate like jQuery Migrate warning messages of deprecated methods with a stack trace to allow developers to identify and fix compatibility issues.
+The plugin shows warning messages of deprecated methods with a stack trace to allow developers to identify and fix compatibility issues, like jQuery Migrate.
 
 Simply use new Universal Analytics code and add the js.
 
-Supports backward compatibility API:
+Backward compatibility API supported:
 #### _trackEvent
 https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide
 
