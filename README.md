@@ -4,6 +4,8 @@ This is few lines of code inspired to jQuery Migrate to migrate old event tracki
 
 Generate like jQuery Migrate warning messages of deprecated methods with a stack trace to allow developers to identify and fix compatibility issues.
 
+Simply use new Universal Analytics code and add the js.
+
 Supports backward compatibility API:
 #### _trackEvent
 https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide
