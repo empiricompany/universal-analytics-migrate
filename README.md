@@ -37,5 +37,5 @@ _gaq.push(['_trackPageview', '/home/landingPage']);
 ```
 converted to
 ```javascript
-ga('send', 'pageview', { 'page': '/home/landingPage' }');
+ga('send', 'pageview', { 'page': '/home/landingPage' });
 ```
