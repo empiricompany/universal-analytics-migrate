@@ -33,7 +33,7 @@ _gaq.push = function(){
           case '_trackPageview':
             warnMigrateUA("_gaq.push(['"+action+"', '"+argument[1]+"') is deprecated");
             ga('send', 'pageview', { 'page': argument[1] });
-            warnMigrateUA("Execute ga('send', 'pageview', { 'page': '"+argument[1]+"' }');");
+            warnMigrateUA("Execute ga('send', 'pageview', { 'page': '"+argument[1]+"' });");
           break;
         }
     }
